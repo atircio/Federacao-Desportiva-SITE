@@ -1,0 +1,120 @@
+.naver{
+    padding: 1%;
+    background-image: linear-gradient(rgba(39, 1, 50, 0.589),rgba(39, 1, 50, 0.589)),url(img/home.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.contacto{
+    overflow: auto;
+ 
+}
+.email{
+
+    margin: 6% 0% 6% 17%;
+    width: 30% ;
+    padding: 2% ;
+    float: left;
+    
+}
+.email h2{
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 30px; 
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+#nome,#email,#text{
+    display: block;
+    padding: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+#btn:active{
+    background: #1d0e27;
+    color: white;
+}
+#btn{
+    transition: background .1s linear, color .2s linear;
+    margin-top: 40px;
+    width: 140px;
+    padding: 15px;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    background: #FFC300;
+    outline: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+/*Numeros*/
+
+.numero{
+ 
+    padding: 2%;
+    margin: 6% 6% 6% 0%;
+    width: 35%;
+    float: left;
+}
+.numero h2{
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 30px; 
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+   
+}
+.numero h3{
+    font-size: 15px;
+    margin: 25px 0;
+    letter-spacing: 2px;
+}
+.numero p{
+    letter-spacing: 1px;
+}
+.numero div {
+    margin-left: 20px;
+ 
+}
+footer{
+    padding: 0;
+    color: white;
+    background: #1d0e27 ;
+    overflow: auto;
+}
+footer p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 14px;
+}
+.footer-text{
+    padding: 3% 0;
+    width: 79%;
+    float: left;
+}
+.footer-social{
+    margin: 1% 0;
+    padding: 3% 0;
+    width: 21%;
+    float: left;
+}
+.footer-social li{
+   display: inline;
+   text-align: center;
+}
+.footer-social i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.footer-social-link{
+    transition: color .5s linear;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+.footer-social-link:hover{
+    color:#FFC300 ;
+}

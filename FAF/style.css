@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/* BARRA DAS FEDERAÇÕES*/
+.fed{
+    background-color: rgb(45, 46, 51);
+    text-align: center;
+    padding: 7px;
+    
+}
+
+.fed li{
+    color: white;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+.fed a{
+    color: white;
+    text-decoration: none;
+}
+
+#FAB:hover {
+    text-decoration: underline;
+}
+/*IMAGEM PRIMARIA DA PAG*/
+.naver{
+    height: 300px;
+    padding: 1%;
+    background-image: linear-gradient(rgba(39, 1, 50, 0.589),rgba(39, 1, 50, 0.589)),url(img/home.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+/*PARTE DA NAVEGAÇÃO DA PAG*/
+.nav-ul a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: sans-serif;
+}    
+
+.nav-ul li{
+    display: inline-block;
+    padding: 1%;
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.nav-ul{
+    text-align: right;
+    margin-right: 19px;
+}
+/* Animação dos botões da nav */
+.nav-ul li::after{
+    content:'';
+    position: absolute ;
+    width: 100%;
+    height: 0.1mm;
+    left: 0;
+    bottom: 0;
+    background: yellow;
+}
+#btn-home::after{
+    transform: scale(0, 1);
+    transition: transform 0.6s ease ;
+}
+#btn-home:hover::after{
+    transform: scale(1,2);
+}
+#btn-sobre::after{
+    transform: scale(0,1);
+    transition: transform 0.6s ease ;
+}
+#btn-sobre:hover::after{
+    transform: scale(1,2);
+}
+#btn-comp::after{
+    transform: scale(0,1);
+    transition: transform 0.6s ease ;
+}
+#btn-comp:hover::after{
+    transform: scale(1,2);
+}
+#btn-galeria::after{
+    transform: scale(0,1);
+    transition: transform 0.6s ease ;
+}
+#btn-galeria:hover::after{
+    transform: scale(1,2);
+}
+/* Mensagem de BEM-VINDO & Botão*/
+.bemvindo{
+    text-align: center;
+    margin-top: 150px;
+}
+.bemvindo h1{
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.bemvindo p {
+    color: white;
+    margin-bottom: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+
+
+
+.col-1-2{
+    width: 50%;
+    float: left;
+}
+.row-1{
+    margin-bottom: 15px;
+    overflow: auto;
+}
+.not-foto{
+    padding: 20px;
+}
+.noticias{
+    padding: 2%;
+    width: 60%;
+
+}
+.col-1-3{
+    width: 30%;
+    float: left;
+    padding: 1%;
+ 
+}
+.not img{
+    width: 100%;
+}
+.fotos{
+    padding: 2%;
+    width: 30%;
+}
+.not{
+    margin-left: 3px;
+}
+
+.construcao{
+    padding: 6%;
+    background: #dfdfdf5d;
+}
+.construcao h3{
+    text-align: center;
+    font-style: oblique;
+    font-size: 15px;
+}
+
+
+
+footer{
+    padding: 0;
+    color: white;
+    background: #1d0e27 ;
+    overflow: auto;
+}
+footer p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 14px;
+}
+.footer-text{
+    padding: 3% 0;
+    width: 79%;
+    float: left;
+}
+.footer-social{
+    margin: 1% 0;
+    padding: 3% 0;
+    width: 21%;
+    float: left;
+}
+.footer-social li{
+   display: inline;
+   text-align: center;
+}
+.footer-social i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.footer-social-link{
+    transition: color .5s linear;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+.footer-social-link:hover{
+    color:#FFC300 ;
+}
+

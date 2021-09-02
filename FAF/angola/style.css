@@ -1,0 +1,81 @@
+.naver{
+    padding: 1%;
+    background-image: linear-gradient(rgba(39, 1, 50, 0.589),rgba(39, 1, 50, 0.589)),url(../img/slide-img/sub18-masculino/FOTO/26);
+    background-position: center;
+    background-size: cover;  
+}
+.principal{
+    padding: 3%;
+}
+.lideres{
+    box-shadow:
+    0 14.1px 6.4px rgba(0, 0, 0, 0.094),
+    0 22.2px 15.4px rgba(0, 0, 0, 0.122),
+    0 26.9px 29.1px rgba(0, 0, 0, 0.139),
+    0 32.5px 51.8px rgba(0, 0, 0, 0.158),
+    0 44.7px 96.9px rgba(0, 0, 0, 0.19),
+    0 67px 232px rgba(0, 0, 0, 0.28)
+  ;
+    width: 100%;
+    padding: 2%;
+}
+
+h2{
+    text-align: Left;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+hr{
+    background: #FFC300;
+    height: 3px;
+    width: 200px;
+    border: 0;
+    margin: 30px 0;
+}
+
+.lideres-head th p{
+    text-decoration: none;
+    font-weight: normal;
+    text-align: left;
+}
+
+.lideres-head th{
+    width: 25%;
+    text-align: left;
+    background: #1d0e27;
+    color: white;
+    padding: 2%;
+}
+.lideres-body td img{
+    width: 20%;
+}
+.lideres-body td{
+    border-bottom: 1px solid #0000003a;
+}
+
+.row-lider{
+    overflow: auto;
+ 
+}
+.col-2{
+    width: 40%;
+    float: left;
+}
+.lideres-perfil-text{
+    margin-left: 5% ;
+    padding: 3%;
+}
+.icons img{
+    width: 30%;
+}
+.icons h3{
+    text-align: right;
+    margin-left: 30%;
+}
+.text{
+    margin-top: 34%;
+}
+.text p{
+    font-size: 1.01em;
+}

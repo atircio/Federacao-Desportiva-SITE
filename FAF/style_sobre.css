@@ -1,0 +1,106 @@
+.naver{
+    padding: 1%;
+    background-image: linear-gradient(rgba(39, 1, 50, 0.589),rgba(39, 1, 50, 0.589)),url(img/home.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.about{
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 50px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.about-1{
+    float: left;
+    margin-left: 12%;
+    border: 1px solid rgb(253, 253, 253);
+    width: 30%;
+    padding: 3% 10px 3% 6%;
+}
+.missao h2{
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-size: 16px; 
+    letter-spacing: 2px;
+}
+.missao hr{
+    background: #FFC300;
+    height: 3px;
+    width: 100px;
+    border: 0;
+    margin: 15px 0 6% ;
+}
+.missao p{
+    margin: 30px 0;
+    letter-spacing: .7px;
+    line-height: 20px;
+}
+
+.about-2{
+   
+    margin-left: 0;
+    border: 1px solid rgb(255, 255, 255);
+    width: 30%;
+    padding: 3% 10% 3% 60px;
+}
+
+.valores h2{
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-size: 16px; 
+    letter-spacing: 2px;
+}
+.valores hr{
+    background: #FFC300;
+    height: 3px;
+    width: 100px;
+    border: 0;
+    margin: 15px 0 6% ;
+}
+.valores p{
+    margin: 30px 0;
+    letter-spacing: .7px;
+    line-height: 20px;
+}
+
+footer{
+    padding: 0;
+    color: white;
+    background: #1d0e27 ;
+    overflow: auto;
+}
+footer p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 14px;
+}
+.footer-text{
+    padding: 3% 0;
+    width: 79%;
+    float: left;
+}
+.footer-social{
+    margin: 1% 0;
+    padding: 3% 0;
+    width: 21%;
+    float: left;
+}
+.footer-social li{
+   display: inline;
+   text-align: center;
+}
+.footer-social i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.footer-social-link{
+    transition: color .5s linear;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+.footer-social-link:hover{
+    color:#FFC300 ;
+}

@@ -1,0 +1,158 @@
+.naver{
+    padding: 1%;
+    background-image: linear-gradient(rgba(39, 1, 50, 0.589),rgba(39, 1, 50, 0.589)),url(img/slide-img/sub18-masculino/FOTO/57.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.row{
+    overflow: auto;
+    padding: 5%;
+}
+
+.col-2{
+    width: 50%;
+    overflow: auto;
+    float: left;
+}
+
+.col-1-3{
+    width: 32%;
+}
+
+.fotos img{
+    height: auto;
+}
+.fotos{
+    margin: 50px 0;
+ 
+}
+
+.galeria{
+    padding: 7%;
+}
+.galeria-hr{
+    background: #FFC300;
+    height: 3px;
+    width: 200px;
+    border: 0;
+    margin: 30px 0;
+}
+.galeria-title{
+    font-size: 35px;
+    color: #222222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0;
+}
+.galeria-p{
+    font-size: 15px;
+    color: #222222;
+    font-weight: bold;
+
+}
+
+
+.galeria-slide{
+    margin: 50px 0;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    float: left;
+ 
+    
+
+}
+.slider{
+
+    width: 500px;
+    height: 540px;
+    overflow: hidden;
+}
+.slides{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    transition-timing-function: ease-in-out;
+    transition: 1s;
+}
+
+.slide img{
+    width: 500px;
+    height: 549px;
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 40%;/*500px*/
+    display: flex;
+    justify-content:center;
+}
+
+.manual-btn{
+    border: 3px ridge #FFC300;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: .5s;
+    margin-right: 6%;
+}
+.manual-btn:hover{
+    background: #FFC300;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -500px;
+}
+#radio3:checked ~ .first{
+    margin-left: -1000px;
+}
+#radio4:checked ~ .first{
+    margin-left: -1500px;
+}
+
+
+footer{
+    padding: 0;
+    color: white;
+    background: #1d0e27 ;
+    overflow: auto;
+}
+footer p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 14px;
+}
+.footer-text{
+    padding: 3% 0;
+    width: 79%;
+    float: left;
+}
+.footer-social{
+    margin: 1% 0;
+    padding: 3% 0;
+    width: 21%;
+    float: left;
+}
+.footer-social li{
+   display: inline;
+   text-align: center;
+}
+.footer-social i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.footer-social-link{
+    transition: color .5s linear;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+.footer-social-link:hover{
+    color:#FFC300 ;
+}

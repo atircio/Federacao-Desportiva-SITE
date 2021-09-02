@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/* BARRA DAS FEDERAÇÕES*/
+.fed{
+    background-color: rgb(45, 46, 51);
+    text-align: center;
+    padding: 7px;
+    
+}
+
+.fed li{
+    color: white;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+.fed a{
+    color: white;
+    text-decoration: none;
+}
+
+#FAB:hover {
+    text-decoration: underline;
+}
+/*IMAGEM PRIMARIA DA PAG*/
+.naver{
+    padding: 1%;
+    background-image: linear-gradient(rgba(39, 1, 50, 0.589),rgba(39, 1, 50, 0.589)),url(img/seleccao_angolana_de_basquetebol.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+/*PARTE DA NAVEGAÇÃO DA PAG*/
+.nav-ul a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: sans-serif;
+}    
+
+.nav-ul li{
+    display: inline-block;
+    padding: 1%;
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.nav-ul{
+    text-align: right;
+    margin-right: 19px;
+}
+/* Animação dos botões da nav */
+.nav-ul li::after{
+    content:'';
+    position: absolute ;
+    width: 100%;
+    height: 0.1mm;
+    left: 0;
+    bottom: 0;
+    background: yellow;
+}
+#btn-home::after{
+    transform: scale(0, 1);
+    transition: transform 0.6s ease ;
+}
+#btn-home:hover::after{
+    transform: scale(1,2);
+}
+#btn-sobre::after{
+    transform: scale(0,1);
+    transition: transform 0.6s ease ;
+}
+#btn-sobre:hover::after{
+    transform: scale(1,2);
+}
+#btn-comp::after{
+    transform: scale(0,1);
+    transition: transform 0.6s ease ;
+}
+#btn-comp:hover::after{
+    transform: scale(1,2);
+}
+#btn-galeria::after{
+    transform: scale(0,1);
+    transition: transform 0.6s ease ;
+}
+#btn-galeria:hover::after{
+    transform: scale(1,2);
+}
+/* Mensagem de BEM-VINDO & Botão*/
+.bemvindo{
+    text-align: center;
+    margin-top: 150px;
+}
+.bemvindo h1{
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.bemvindo p {
+    color: white;
+    margin-bottom: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+.bemvindo button{
+    margin-top: 50px;
+    width: 140px;
+    padding: 15px;
+    border: none;
+    border-radius: 23px;
+    margin-bottom: 150px;
+    cursor: pointer;
+    background: #FFC300;
+    outline: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+.frase{
+    padding: 5%;
+    background: #ffc40004;
+    text-align: center;
+    box-shadow:
+   0 4.9px 3.2px rgba(0, 0, 0, 0.01),
+   0 9.4px 7.5px rgba(0, 0, 0, 0.014),
+   0 14.8px 14.1px rgba(0, 0, 0, 0.022),
+   0 22.7px 25.2px rgba(0, 0, 0, 0.038),
+   0 34.1px 47.2px rgba(0, 0, 0, 0.083),
+   0 67px 113px rgba(0, 0, 0, 0.22)
+ ;
+ border-radius: 20px ;
+    
+}
+.frase p{
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.noticias{
+    padding: 5%;
+}
+.UN{
+    overflow: auto;
+}
+
+.noticias h2{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.noticias hr{
+    background: #FFC300;
+    height: 3px;
+    width: 200px;
+    border: 0;
+    margin: 30px auto;
+}
+.noticia1,.noticia2,.noticia3{
+    text-align: center;
+}
+.noticia1 p ,.noticia2 p,.noticia3 p{
+    margin: 10px 3px;
+}
+.noticia1 h3 ,.noticia2 h3,.noticia3 h3{
+    margin: 10px 3px;
+}
+.UN button{
+    margin-top: 20px;
+    width: 100px;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: #FFC300;
+    outline: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.UN button a{
+    color: black;
+    text-decoration: none;
+}
+.sobre{
+    padding: 5%;
+    overflow: auto;
+    background: #1d0e27;
+    color: #fff;
+    
+}
+.sobre img{
+    width: 30%;
+    margin-right: 40px;
+    box-shadow:
+  0 14.1px 6.4px rgba(0, 0, 0, 0.094),
+  0 22.2px 15.4px rgba(0, 0, 0, 0.122),
+  0 26.9px 29.1px rgba(0, 0, 0, 0.139),
+  0 32.5px 51.8px rgba(0, 0, 0, 0.158),
+  0 44.7px 96.9px rgba(0, 0, 0, 0.19),
+  0 67px 232px rgba(0, 0, 0, 0.28)
+;
+
+
+}
+.sobre h2{
+    text-align: left;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    
+}
+.sobre hr{
+    background: #FFC300;
+    height: 3px;
+    width: 200px;
+    border: 0;
+    margin: 20px 0;
+}
+.sobre p{
+    line-height: 1.58;
+}
+.sobre button{
+    margin-top: 20px;
+    width: 100px;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: #FFC300;
+    outline: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.col-1-2{
+    width: 50%;
+    float: left;
+}
+.row-1{
+    margin-bottom: 15px;
+    overflow: auto;
+}
+.col-1-3{
+    width: 30%;
+    float: left;
+    padding: 1%;
+}
+
+
+.fotos-momentos{
+    overflow: auto;
+    padding: 5%;
+}
+.fotos-texto{
+    width: 30%;
+}
+.fotos-texto h2{
+    text-align: left;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.fotos-texto hr{
+    background: #FFC300;
+    height: 3px;
+    width: 200px;
+    border: 0;
+    margin: 20px 0;
+}
+.fotos-texto p{
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.fotos-texto button{
+    margin-top: 20px;
+    width: 100px;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: #FFC300;
+    outline: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.col-1-2 .fotos{
+    padding: 1%;
+    border-radius: 10px;
+    overflow: auto;
+    box-shadow:
+  0 14.1px 6.4px rgba(0, 0, 0, 0.094),
+  0 22.2px 15.4px rgba(0, 0, 0, 0.122),
+  0 26.9px 29.1px rgba(0, 0, 0, 0.139),
+  0 32.5px 51.8px rgba(0, 0, 0, 0.158),
+  0 44.7px 96.9px rgba(0, 0, 0, 0.19),
+  0 67px 232px rgba(0, 0, 0, 0.28)
+;
+
+
+}
+.col-1-2 .fotos img{
+    margin: 2px;
+    border-radius: 5px;
+}
+
+
+footer{
+    padding: 0;
+    color: white;
+    background: #1d0e27 ;
+    overflow: auto;
+}
+footer p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 14px;
+}
+.footer-text{
+    padding: 3% 0;
+    width: 79%;
+    float: left;
+}
+.footer-social{
+    margin: 1% 0;
+    padding: 3% 0;
+    width: 21%;
+    float: left;
+}
+.footer-social li{
+   display: inline;
+   text-align: center;
+}
+.footer-social i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.footer-social-link{
+    transition: color .5s linear;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+.footer-social-link:hover{
+    color:#FFC300 ;
+}
+
